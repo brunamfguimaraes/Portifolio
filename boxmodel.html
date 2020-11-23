@@ -2,7 +2,7 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8">
-    <title>Portifólio</title>
+    <title>Box Model</title>
     <style>
     body {
         background-color:bisque;
@@ -16,13 +16,9 @@
       }
        
       #foto {
-          border-style:groove;
-          
+        border: 5px groove;
       }
-      p {
-        
-      }
-      
+
       .lista {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 20px;
@@ -34,6 +30,7 @@
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-style: normal;
         color: rgb(112, 18, 34);
+      
       }
       
       .hobbiesequalidades {
@@ -44,9 +41,14 @@
 
       #box {
           background-color: crimson;
+          border: 6px ridge purple;
           text-align: center;
-          height:180 px;
-          width: 50%;
+          width: 56%;
+          float:left;
+          margin: 40px 10px 10px 28px;
+          padding: 10px;
+          
+        
       }
       
       #meublog {
@@ -60,28 +62,40 @@
         list-style-type:circle;
         color:darkviolet;
       }
+       
+      .bloco {
+        margin: 20px 8px 18px 20px;
+        border: 6px groove red;
+        padding: 10px;
+      }
+
+      .impar {
+        font-weight: bolder;
+      }
+
       </style>
 </head>
-  <body>
+  <body>    
     <div id="box">
       <h1>Bruna Ferreira Guimarães</h1>
       <img src="brunaferreira.jpg" id="foto" width="250px">
       <p><em>Essa foto eu tirei no meu lugar preferido de estar</em></p>
-      <h4 id="deondeeusou">Sou de Itapeva, uma cidade do interior de São Paulo. Quando me casei, em Fevereiro de 2020, me mudei para Belo Horizonte em Minas Gerais. Mas agora, me mudei junto com meu marido para a cidade de Valinhos/SP.</h4>
-      </div>   
-
-    <h5 class="hobbiesequalidades" id="qualidades">São alguns dos meus valores, hobbies e qualidades:</h5>
-  <ul.a class="alista">
-        <li>Respeito, humildade e empatia.</li>
-        <li>Gosto de bons livros, artigos, boas leituras.</li>
-        <li>Amo assistir filmes e ir ao cinema.</li>
-        <li>Gosto de aprender e ensinar</li>
-        <li>Sou uma pessoa tranquila e com muito foco!</li>
-        <li>Meus programas preferidos no momento são: The Voice, XFactor, e Masterchef</li>
-        <li>Cooperação e gentileza são muito importantes para mim.</li>   
-        <li>Amo música! Gosto de tocar vários instrumentos. Mas no momento estou tocando apenas piano.</li>
-    </ul>
-    <a href="https://eucurtoviajar.com/"><strong id="meublog">Esse é meu Blog de viagem!</strong></a>
+    </div>
+    <div class="bloco">
+      <h4 id="deondeeusou">Sou de Itapeva, uma cidade do interior de São Paulo. Quando me casei, em Fevereiro de 2020, me mudei para Belo Horizonte em Minas Gerais. Mas agora, me mudei junto com meu marido para a cidade de Valinhos/SP.</h4>  
+      <h5 class="hobbiesequalidades" id="qualidades">São alguns dos meus valores, hobbies e qualidades:</h5>
+      <ul.a class="alista">
+          <li class="impar">Respeito, humildade e empatia.</li>
+          <li>Gosto de bons livros, artigos, boas leituras.</li>
+          <li class="impar">Amo assistir filmes e ir ao cinema.</li>
+          <li>Gosto de aprender e ensinar</li>
+          <li class="impar">Sou uma pessoa tranquila e com muito foco!</li>
+          <li>Meus programas preferidos no momento são: The Voice, XFactor, e Masterchef</li>
+          <li class="impar">Cooperação e gentileza são muito importantes para mim.</li>   
+          <li>Amo música! Gosto de tocar vários instrumentos. Mas no momento estou tocando apenas piano.</li>
+      </ul.a>
+      <a href="https://eucurtoviajar.com/" target="_blanck"><strong id="meublog">Esse é meu Blog de viagem!</strong></a>
+    </div>
 
 
 
