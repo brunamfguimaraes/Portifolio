@@ -1,1 +1,1 @@
-Aqui estão algumas informações sobre mim. 
+Página: Sobre mim.
