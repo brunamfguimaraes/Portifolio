@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(252, 232, 236);
+}
+
+.foto {
+  border-radius: 50%;
+  margin-left: 40%;
+  width: 15%;
+}
+
+.h1 {
+  margin-left: 35%;
+  margin-top: 5%;
+}
+
+.h2 {
+  margin-left: 31%;
+}
+
+.botao {
+  margin-top: 1%;
+  margin-left: 67%;
+  margin-right: -66%;
+  border-radius: 29%;
+	font-size: 2em;
+  border: none;
+  position: relative;
+		width: 15%;
+    background-color: rgb(252, 232, 236);
+}
+
+.botao:hover .text-button{
+  cursor: pointer;
+  font-size: 90%;
+}
+
+.text-button{
+			color: black;
+      font-size: smaller;
+      font-family: monospace;
+      font-weight: 600;
+}
+
+.sobre-mim {
+  font-family: monospace;
+  margin-left: 3%;
+}
+
+.texto-sobre-mim {
+  font-family: monospace;
+  margin-left: 1%;
+
+}
+
+.habilidades {
+  margin-top: 5%;
+  font-family: monospace;
+  margin-left: 40%;
+}
+
+.react-img {
+  margin-top: 3%;
+  margin-left: 25%;
+  width: 7%;
+}
